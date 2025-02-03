@@ -1,4 +1,4 @@
-export const SignUpcard = ()=>{
+export const SignUpCard = ()=>{
     return(
         <div>
             signUp 

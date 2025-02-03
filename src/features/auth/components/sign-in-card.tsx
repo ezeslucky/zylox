@@ -4,19 +4,20 @@ import { Input } from "@/components/ui/input"
 import { Separator } from "@/components/ui/separator"
 import {FcGoogle} from "react-icons/fc"
 import {FaGithub} from "react-icons/fa"
-export const SignIncard = ()=>{
+export const SignInCard = ()=>{
     return(
         <Card className=" w-full h-full p-8 ">
             <CardHeader className=" px-0 pt-0">
                 <CardTitle>
                 Login To Continue
                 </CardTitle>
-                </CardHeader>
+                
             <CardDescription>
                 use your email or another services to continue
             </CardDescription>
-            <CardContent className=" space-y-5 px-0 pb-0">
-<form  className=" space-y-2.5  gap-2">
+            </CardHeader>
+            <CardContent className=" space-y-5 px-0 pb-0 ">
+<form  className=" space-y-2.5  ">
 <Input 
 disabled={false} 
 value=""
